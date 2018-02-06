@@ -9,5 +9,5 @@ response.write("\nHello from node: "+os.hostname());
 response.end("\nversion 2 change\n");
 });
 
-server.listen(8000);
-console.log("server started on  "+os.hostname()+":8000");
+server.listen(8080);
+console.log("server started on  "+os.hostname()+":8080");
